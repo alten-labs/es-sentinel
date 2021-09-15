@@ -1,5 +1,8 @@
 <img src=".assets/sentinel-prime.png" width="400" />
 
+[![Maintained by CPrime Engineering](https://img.shields.io/badge/maintained%20by-cprime%20engineering-ED1846)](https://cprime.com/) 
+[![Built for Engineers](https://img.shields.io/badge/project-embedded%20systems%20sentinel-ED1846)](https://github.com/cprimeinc)
+
 # es-sentinel
 Embedded Systems Sentinel. A SonarQube plugin to ensure code safety, security, portability and reliability in the context of embedded systems. This plugin validates code quality for MISRA C and AUTOSAR compliance.
 
