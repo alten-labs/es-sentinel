@@ -12,11 +12,13 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <sonar.apiVersion>8.3.1.34397</sonar.apiVersion>
     <jdk.min.version>1.8</jdk.min.version>
     <sonar.sources>src/main/java,src/main/js</sonar.sources>
     <sonar.organization>pulp-digital</sonar.organization>
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+    <github.global.server>github</github.global.server>
   </properties>
 
   <dependencies>
@@ -119,5 +121,20 @@
       </plugin>
     </plugins>
   </build>
+
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub pulp-digital Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/pulp-digital/es-sentinel</url>
+    </repository>
+  </distributionManagement>
+
+  <scm>
+    <connection>scm:git:https://github.com/pulp-digital/es-sentinel.git</connection>
+    <developerConnection>scm:git:https://github.com/pulp-digital/es-sentinel.git</developerConnection>
+    <url>https://github.com/pulp-digital/es-sentinel</url>
+  </scm>
+
 
 </project>

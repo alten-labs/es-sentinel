@@ -5,7 +5,7 @@ on:
     - cron:  '0 3 * * *'
 jobs:
   analyze:
-    name: Sonarcloud action
+    name: Sonarcloud Analysis Action
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
