@@ -1,10 +1,10 @@
-# iso20022-test-automation docs site
+# es-sentinel docs site
 
-This directory contains the code for the iso20022-test-automation [docs site](https://pulp-digital.github.io/iso20022-test-automation/).
+This directory contains the code for the es-sentinel [docs site](https://pulp-digital.github.io/es-sentinel/).
 
 ## Contributing
 
-For information about contributing, see the [Contribution Guidelines](https://github.com/pulp-digital/iso20022-test-automation/blob/main/CONTRIBUTING.md).
+For information about contributing, see the [Contribution Guidelines](https://github.com/pulp-digital/es-sentinel/blob/main/CONTRIBUTING.md).
 
 ## Running locally
 
