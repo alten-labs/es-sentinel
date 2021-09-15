@@ -11,6 +11,10 @@
 # Embedded Systems Sentinel
 A [SonarQube](https://www.sonarqube.org/) plugin to ensure code safety, security, portability and reliability in the context of embedded systems. This plugin validates code quality for [MISRA C](https://en.wikipedia.org/wiki/MISRA_C) and [AUTOSAR](https://www.autosar.org/) compliance.
 
+## Documentation
+
+Comprehensive documentation for this repo can be found in the [github pages](https://pulp-digital.github.io/es-sentinel/) website hosted within this repo.
+
 ## Project Management
 
 Tasks and issues that relate to development of this repo can be found in this repo's [project board](https://github.com/pulp-digital/es-sentinel/projects/1).
