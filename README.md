@@ -19,99 +19,72 @@ Comprehensive documentation for this repo can be found in the [github pages](htt
 
 Tasks and issues that relate to development of this repo can be found in this repo's [project board](https://github.com/pulp-digital/es-sentinel/projects/1).
 
-## Useful Links
+## How to use this repo
 
-[Sonarsource documentation for plugin development.](https://docs.sonarqube.org/latest/extend/developing-plugin/)
+Follow these steps to fully implement this repo:
 
-[Sonarsource example plugin project on GitHub.](https://github.com/SonarSource/sonar-custom-plugin-example)
+#### Step 0: GitHub.
+If you are viewing this readme by any other means go to the canonical repository on [GitHub](https://github.com/pulp-digital/es-sentinel) for the most up to date version of this repo.
 
-Back-end
---------
+#### Step 1: Launch Gitpod IDE.
+- If you don't already have it installed we recommend using the [GitPod Browser Extension](https://www.gitpod.io/docs/browser-extension/).
+- On the home page for this repo, select the branch you want to base your work on then click 'GitPod'. Alternatively click this url https://gitpod.io/#https://github.com/pulp-digital/es-sentinel
+- Gitpod will now launch.
 
-Todo...
+#### Step 3: Run the tests.
+- From the command prompt in the project root of this repo, execute the following command.
+- `mvn test`
 
-### Building
+#### Step 5: Eat, Sleep, Code, Repeat!
+- Create a local working branch for whatever feature you are working on.
+- Run local tests to ensure you won't push a breaking build.
+- Push your branch to origin to trigger an automated CI build.
+- If the automated CI build passed, create a pull request to have your code merged to the master branch.
+- Rinse and repeat! Happy coding :)
 
-To build the plugin JAR file, call:
 
-```
-mvn clean package
-```
+## Tooling
 
-The JAR will be deployed to `target/sonar-example-plugin-VERSION.jar`. Copy this to your SonarQube's `extensions/plugins/` directory, and re-start SonarQube.
+The following tools are not strictly required to work with this repo but we recommend their use and used them oursleves in the creation of this repo:
+- [GitHub](https://GitHub.com): GitHub, Inc. is a provider of Internet hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features. 
+- [Gitpod](https://www.gitpod.io/): Gitpod streamlines developer workflows by providing prebuilt, collaborative development environments in your browser - powered by VS Code.
 
-Front-end
----------
+## Who maintains this repo?
 
-This plugin registers 4 extension pages in the SonarQube web app. They demonstrate how you can extend SonarQube's UI with new pages and interfaces.
+This repo is maintained by CPrime Engineering. If you're looking for support, send an email to [engineering@cprime.com](mailto:engineering@cprime.com?subject=DevOps%20Library%20VPC%20AWS).
+CPrime Engineering can help with:
 
-### Prerequisites
+- Setup, customization, and support for this repo.
+- Modules for other types of infrastructure, such as VPCs, Docker clusters, databases, and continuous integration.
+- Modules that meet compliance requirements, such as HIPAA.
+- Consulting & Training on Azure, AWS, Terraform, and DevOps.
 
-* [NodeJS](https://nodejs.org/en/)
+## How do I contribute to this repo?
 
-### Scripts
+Contributions are welcome. Check out the
+[Contribution Guidelines](/CONTRIBUTING.md) and 
+[Code of Conduct](/CONDUCT.md) for instructions.
 
-* `npm install` to install your dependencies.
-* `npm start` to start a proxy server on port 3000 to debug your JS code.  
-  *Note: This plugin must first be deployed and installed on your SonarQube instance, otherwise the extension paths will not be registered. See above under Back-end > Building*  
-  This will proxy to a running SonarQube instance, but allow you to use your own local JavaScript instead of what was bundled with your plugin. Once started, you can access `http://localhost:3000` in your browser, and use SonarQube as you normally would.  
-  You can use a different port by using the `PORT` environment variable. Example:  
-  ```
-  PORT=6060 npm start
-  ```
-  You can control to which SonarQube instance you proxy to by setting the `PROXY_URL` environment variable to any valid URL (defaults to `http://localhost:9000`). Example:  
-  ```
-  PROXY_URL=https://sonarqube.example.com npm start
-  ```
-* `npm test` to start watching your files for changes, and run tests accordingly.
-* `npm run build` to build your front-end code.  
-  Usually, you will not need to call this; instead, this should be part of your package building process.  
-  See Back-end > Building above.
+## How is this repo versioned?
 
-### Building
+This repo follows the principles of [Semantic Versioning](http://semver.org/). You can find each new release,
+along with the changelog, in the [Releases Page](../../releases).
 
-This example plugin uses [Webpack](https://webpack.js.org/) for building the final JavaScript. Whatever build system you choose to use, the final result *MUST* adhere to the following rules:
+During initial development, the major version will be 0 (e.g., `0.x.y`), which indicates the code does not yet have a
+stable API. Once we hit `1.0.0`, we will make every effort to maintain a backwards compatible API and use the MAJOR,
+MINOR, and PATCH versions on each release to indicate any incompatibilities.
 
-* 1 entry file *per extension page*.
-* The name of each entry file must correspond to the `page_id` of the registered page (see `src/main/java/org/sonarsource/plugins/example/web/MyPluginPageDefinition.java` and compare with the entry points in `conf/webpack/webpack.config.js`).
-* Each entry file must be located in the resulting JAR's `static/` folder.
+Publication of the CHANGELOG for this repo is automated using [git-changelog](https://github.com/git-chglog/git-chglog) in the style of [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-The building process should be included in your full packaging process. In this example plugin, `mvn package` will call `npm run build` prior to finalizing the JAR package.
+## Architectural Decisions
 
-### Testing
+All architectural decisions made in the authoring of this repo are captured as a log of [Architecture Decision Records](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions) (ADRs). This log can be found in the [adr/en](adr/en) sub directory of this repo.
 
-This project uses [Jest](https://jestjs.io/) for testing. Running `npm test` will run Jest in `--watch` mode. You can find the configuration for Jest in `package.json`.
+Creation of architecural decision records relating to this repo is automated using [adr-tools](https://github.com/npryce/adr-tools).
 
-### How to use these files
+## License
 
-It is recommended you check out the sources in `src/main/js/` directly. The code is well commented, and provides real-world examples on how to interact with SonarQube.
+This code is released under the Creative Commons BY-NC-ND License. Please see
+[LICENSE](/LICENSE) and [NOTICE](/NOTICE) for more details.
 
-The pages are registered in `src/main/java/org/sonarsource/plugins/example/web/MyPluginPageDefinition.java`, and their respective front-end source code is located in `src/main/js/`. These examples use different stacks to demonstrate different possibilities:
-
-* React JS examples (recommended, SonarQube uses React 16):
-  * `src/main/js/portfolio_page/`
-  * `src/main/js/admin_page/`
-* Backbone JS example: `src/main/js/project_page/`
-* Vanilla JS example: `src/main/js/global_page/`
-
-#### Helper APIs exposed by SonarQube
-
-There are several helper APIs exposed by SonarQube, like functions to make authenticated API requests.
-
-You can find the full list of exposed helpers [here](https://github.com/SonarSource/sonarqube/blob/master/server/sonar-web/src/main/js/app/components/extensions/exposeLibraries.ts).
-
-The included pages contain several examples:
-
-* **API calls (`window.SonarRequest`)**  
-  Check `src/main/js/common/api.js` for some examples.
-
-* **Localization (`window.t()` and `window.tp()`)**  
-  Localizable UI strings are defined in `src/main/resources/org/sonar/l10n/example/`. They are loaded at startup time, and can used by the global `t()` and `tp()` functions. See `src/main/js/admin_page/components/InstanceStatisticsApp.js` and `src/main/js/portfolio_page/components/VersionsMeasuresHistoryApp.js` for some examples. 
-
-**Deprecation notice**
-
-Starting with SonarQube 8.7, the following APIs are deprecated and won't be maintained anymore. They'll be dropped after the next SonarQube LTS version.
-
-* **Measure helpers (`window.SonarMeasures`)**
-* **React Components (`window.SonarComponents`)**
 
