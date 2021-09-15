@@ -106,3 +106,4 @@ Starting with SonarQube 8.7, the following APIs are deprecated and won't be main
 
 * **Measure helpers (`window.SonarMeasures`)**
 * **React Components (`window.SonarComponents`)**
+
