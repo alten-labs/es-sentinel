@@ -7,8 +7,8 @@
   <packaging>sonar-plugin</packaging>
   <version>8.1.0</version>
 
-  <name>Example Plugin for SonarQube 8.x</name>
-  <description>Example of Plugin for SonarQube: Foo Language, FooLint, Custom Metrics and MeasureComputers</description>
+  <name>Embedded Systems Sentinel</name>
+  <description>A SonarQube plugin to ensure code safety, security, portability and reliability in the context of embedded systems. This plugin validates code quality for MISRA C and AUTOSAR compliance.</description>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
