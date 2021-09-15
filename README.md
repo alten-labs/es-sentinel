@@ -4,7 +4,7 @@
 [![Built for Engineers](https://img.shields.io/badge/project-embedded%20systems%20sentinel-ED1846)](https://github.com/cprimeinc)
 
 # Embedded Systems Sentinel
-A SonarQube plugin to ensure code safety, security, portability and reliability in the context of embedded systems. This plugin validates code quality for MISRA C and AUTOSAR compliance.
+A SonarQube plugin to ensure code safety, security, portability and reliability in the context of embedded systems. This plugin validates code quality for [MISRA C](https://en.wikipedia.org/wiki/MISRA_C) and [AUTOSAR](https://www.autosar.org/) compliance.
 
 ## Useful Links
 
