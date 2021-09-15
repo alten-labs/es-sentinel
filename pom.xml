@@ -5,7 +5,7 @@
   <groupId>com.cprime.sonarcloud.plugins.embedded-systems-sentinel</groupId>
   <artifactId>embedded-systems-sentinel-sonarcloud-plugin</artifactId>
   <packaging>sonar-plugin</packaging>
-  <version>0.0.0</version>
+  <version>0.0.0-SNAPSHOT</version>
 
   <name>Embedded Systems Sentinel</name>
   <description>A SonarQube plugin to ensure code safety, security, portability and reliability in the context of embedded systems. This plugin validates code quality for MISRA C and AUTOSAR compliance.</description>
@@ -53,12 +53,6 @@
 
   <build>
     <plugins>
-    <plugin>
-        <artifactId>maven-release-plugin</artifactId>
-        <version>2.5.2</version>
-        <configuration>
-        </configuration>
-      </plugin>
       <plugin>
         <groupId>org.sonarsource.sonar-packaging-maven-plugin</groupId>
         <artifactId>sonar-packaging-maven-plugin</artifactId>
