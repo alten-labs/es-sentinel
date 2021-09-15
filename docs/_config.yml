@@ -1,9 +1,9 @@
 ---
 version: 0.0.0
-name: iso20022-test-automation
-description: Transform your ISO 20022 test automation strategy.
-url: https://pulp-digital.github.io/iso20022-test-automation/
-repository: https://github.com/pulp-digital/iso20022-test-automation
+name: es-sentinel
+description: We are making embedded systems software safer through the automation of code quality assurance.
+url: https://pulp-digital.github.io/es-sentinel/
+repository: https://github.com/pulp-digital/es-sentinel
 timezone: America/Los_Angeles
 twitter:
   username: cprime

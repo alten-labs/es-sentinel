@@ -11,5 +11,4 @@ innersource community around the iso20022 automation ecosystem thrive._
 
 * Kev (@devopskev)
 * Pete (@phoughton)
-* John (@johntdavies)
-* Steve (@i5SteveM)
+
