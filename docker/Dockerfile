@@ -1,0 +1,1 @@
+FROM sonarqube:lts-community AS es-sentinel-base
