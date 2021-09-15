@@ -5,9 +5,9 @@ Embedded Systems Sentinel. A SonarQube plugin to ensure code safety, security, p
 
 ## Useful Links
 
-[Sonarsource documentation for plugin development](https://docs.sonarqube.org/latest/extend/developing-plugin/)
+[Sonarsource documentation for plugin development.](https://docs.sonarqube.org/latest/extend/developing-plugin/)
 
-[Sonarsource example plugin project on GitHub](https://github.com/SonarSource/sonar-custom-plugin-example)
+[Sonarsource example plugin project on GitHub.](https://github.com/SonarSource/sonar-custom-plugin-example)
 
 Back-end
 --------
