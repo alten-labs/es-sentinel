@@ -32,8 +32,9 @@ sentinel/package-local: sentinel/test-local
 # This utility is intened for gitpod developer use only and should not execute within a CICD build.
 #--------------------------------------------------------------------------------------------------------------
 sentinel/build-local: sentinel/package-local
+	mkdir -p ./docker/tmp/ ; \
 	cp ./target/embedded-systems-sentinel-sonarcloud-plugin-0.0.0-SNAPSHOT.jar ./docker/tmp/ ; \
-	cd ./docker \
+	cd ./docker ; \
 	docker build -t sonarqube-se-sentinel .
 
 #--------------------------------------------------------------------------------------------------------------
