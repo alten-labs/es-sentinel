@@ -15,7 +15,7 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <sonar.apiVersion>8.3.1.34397</sonar.apiVersion>
     <jdk.min.version>1.8</jdk.min.version>
-    <sonar.sources>src/main/java,src/main/js</sonar.sources>
+    <sonar.sources>src/main/java</sonar.sources>
     <sonar.organization>pulp-digital</sonar.organization>
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     <github.global.server>github</github.global.server>
