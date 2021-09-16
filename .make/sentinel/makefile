@@ -27,12 +27,22 @@ sentinel/package-local: sentinel/test-local
 	mvn package
 
 #--------------------------------------------------------------------------------------------------------------
-# test-local
+# build-local
 #--------------------------------------------------------------------------------------------------------------
 # This utility is intened for gitpod developer use only and should not execute within a CICD build.
 #--------------------------------------------------------------------------------------------------------------
-sentinel/serve-local: sentinel/package-local
-	docker run -d --name es-sentinel -p 9000:9000 sonarqube:lts-community
+sentinel/build-local: sentinel/package-local
+	cp ./target/embedded-systems-sentinel-sonarcloud-plugin-0.0.0-SNAPSHOT.jar ./docker/tmp/ ; \
+	cd ./docker \
+	docker build -t sonarqube-se-sentinel .
+
+#--------------------------------------------------------------------------------------------------------------
+# serve-local
+#--------------------------------------------------------------------------------------------------------------
+# This utility is intened for gitpod developer use only and should not execute within a CICD build.
+#--------------------------------------------------------------------------------------------------------------
+sentinel/serve-local: sentinel/build-local
+	docker run -dp 9000:9000 sonarqube-se-sentinel
 
 #--------------------------------------------------------------------------------------------------------------
 #
