@@ -1,4 +1,4 @@
-<img src=".assets/es-sentinel.png" width="400" />
+<img src=".assets/es-sentinel.png" width="300" />
 
 [![Maintained by CPrime Engineering](https://img.shields.io/badge/maintained%20by-cprime%20engineering-ED1846)](https://cprime.com/) 
 [![Built for Engineers](https://img.shields.io/badge/project-embedded%20systems%20sentinel-ED1846)](https://github.com/cprimeinc)
@@ -22,6 +22,7 @@ Tasks and issues that relate to development of this repo can be found in this re
 ## How to use this repo
 
 Follow these steps to fully implement this repo:
+
 
 #### Step 0: GitHub.
 If you are viewing this readme by any other means go to the canonical repository on [GitHub](https://github.com/pulp-digital/es-sentinel) for the most up to date version of this repo.
