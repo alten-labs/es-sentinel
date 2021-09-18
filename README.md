@@ -9,7 +9,7 @@
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=pulp-digital_es-sentinel&metric=vulnerabilities&token=362e645be7e5de95b43640b80cd9f4cb032ff44e)](https://sonarcloud.io/dashboard?id=pulp-digital_es-sentinel)
 
 # Embedded Systems Sentinel
-A [SonarQube](https://www.sonarqube.org/) plugin to ensure code safety, security, portability and reliability in the context of embedded systems. This plugin validates code quality for [MISRA C](https://en.wikipedia.org/wiki/MISRA_C) and [AUTOSAR](https://www.autosar.org/) compliance.
+A [CodeQL](https://securitylab.github.com/tools/codeql/) query pack implementation to ensure code safety, security, portability, and reliability in the context of embedded systems. This query pack validates code quality for [MISRA C](https://en.wikipedia.org/wiki/MISRA_C) and [AUTOSAR](https://www.autosar.org/) compliance.
 
 ## Documentation
 
