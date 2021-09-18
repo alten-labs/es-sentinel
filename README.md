@@ -1,4 +1,4 @@
-<img src=".assets/sentinel-prime.png" width="400" />
+<img src=".assets/es-sentinel.png" width="400" />
 
 [![Maintained by CPrime Engineering](https://img.shields.io/badge/maintained%20by-cprime%20engineering-ED1846)](https://cprime.com/) 
 [![Built for Engineers](https://img.shields.io/badge/project-embedded%20systems%20sentinel-ED1846)](https://github.com/cprimeinc)
