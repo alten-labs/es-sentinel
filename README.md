@@ -80,13 +80,14 @@ All architectural decisions made in the authoring of this repo are captured as a
 
 Creation of architecural decision records relating to this repo is automated using [adr-tools](https://github.com/npryce/adr-tools).
 
+<a href="https://opensource.org/" target="_blank">
+<img src=".assets/cp-osi-love.png" />
+</a>
+
 ## License
 
 This code is released under the Creative Commons BY-NC-ND License. Please see
 [LICENSE](/LICENSE) and [NOTICE](/NOTICE) for more details.
 
-<a href="https://opensource.org/" target="_blank">
-<img src=".assets/cp-osi-love.png" />
-</a>
 
 
