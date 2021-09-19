@@ -3,6 +3,9 @@
 [![Maintained by CPrime Engineering](https://img.shields.io/badge/maintained%20by-cprime%20engineering-ED1846)](https://cprime.com/) 
 [![Built for Engineers](https://img.shields.io/badge/project-embedded%20systems%20sentinel-ED1846)](https://github.com/cprimeinc)
 
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/pulp-digital/es-sentinel.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/pulp-digital/es-sentinel/alerts/)
+[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/pulp-digital/es-sentinel.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/pulp-digital/es-sentinel/context:javascript)
+
 # Embedded Systems Sentinel
 A [CodeQL](https://securitylab.github.com/tools/codeql/) query pack implementation to ensure code safety, security, portability, and reliability in the context of embedded systems. This query pack validates code quality for [MISRA C](https://en.wikipedia.org/wiki/MISRA_C) and [AUTOSAR](https://www.autosar.org/) compliance.
 
