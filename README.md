@@ -3,11 +3,6 @@
 [![Maintained by CPrime Engineering](https://img.shields.io/badge/maintained%20by-cprime%20engineering-ED1846)](https://cprime.com/) 
 [![Built for Engineers](https://img.shields.io/badge/project-embedded%20systems%20sentinel-ED1846)](https://github.com/cprimeinc)
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=pulp-digital_es-sentinel&metric=alert_status&token=362e645be7e5de95b43640b80cd9f4cb032ff44e)](https://sonarcloud.io/dashboard?id=pulp-digital_es-sentinel)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=pulp-digital_es-sentinel&metric=sqale_rating&token=362e645be7e5de95b43640b80cd9f4cb032ff44e)](https://sonarcloud.io/dashboard?id=pulp-digital_es-sentinel)
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=pulp-digital_es-sentinel&metric=security_rating&token=362e645be7e5de95b43640b80cd9f4cb032ff44e)](https://sonarcloud.io/dashboard?id=pulp-digital_es-sentinel)
-[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=pulp-digital_es-sentinel&metric=vulnerabilities&token=362e645be7e5de95b43640b80cd9f4cb032ff44e)](https://sonarcloud.io/dashboard?id=pulp-digital_es-sentinel)
-
 # Embedded Systems Sentinel
 A [CodeQL](https://securitylab.github.com/tools/codeql/) query pack implementation to ensure code safety, security, portability, and reliability in the context of embedded systems. This query pack validates code quality for [MISRA C](https://en.wikipedia.org/wiki/MISRA_C) and [AUTOSAR](https://www.autosar.org/) compliance.
 
