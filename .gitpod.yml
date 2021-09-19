@@ -2,13 +2,21 @@
 vscode:
   extensions:
     - ms-azuretools.vscode-docker
-    - redhat.vscode-xml
-    - redhat.vscode-commons
-    - redhat.fabric8-analytics
-    - vscjava.vscode-java-debug
-    - vscjava.vscode-maven
-    - vscjava.vscode-java-test
-    - vscjava.vscode-java-dependency
-    - vscjava.vscode-java-pack
-    - redhat.java
     - github.vscode-codeql
+
+github:
+  prebuilds:
+    # enable for the master/default branch (defaults to true)
+    master: true
+    # enable for all branches in this repo (defaults to false)
+    branches: true
+    # enable for pull requests coming from this repo (defaults to true)
+    pullRequests: true
+    # enable for pull requests coming from forks (defaults to false)
+    pullRequestsFromForks: true
+    # add a "Review in Gitpod" button as a comment to pull requests (defaults to true)
+    addComment: true
+    # add a "Review in Gitpod" button to pull requests (defaults to false)
+    addBadge: false
+    # add a label once the prebuild is ready to pull requests (defaults to false)
+    addLabel: prebuilt-in-gitpod
