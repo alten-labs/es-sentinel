@@ -1,7 +1,8 @@
 #--------------------------------------------------------------------------------------------------------------
 #--------------------------------------------------------------------------------------------------------------
 # Name:codeql
-# Description: CodeQL lets you query code as though it were data. Write a query to find all variants of a vulnerability, eradicating it forever. Then share your query to help others do the same.
+# Description: CodeQL lets you query code as though it were data. Write a query to find all variants of a 
+# vulnerability, eradicating it forever. Then share your query to help others do the same.
 # More Information: https://codeql.github.com/docs/
 #--------------------------------------------------------------------------------------------------------------
 #--------------------------------------------------------------------------------------------------------------
