@@ -4,6 +4,7 @@ vscode:
     - ms-azuretools.vscode-docker
     - github.vscode-codeql
     - davidanson.vscode-markdownlint
+    - eamodio.gitlens
 
 github:
   prebuilds:
