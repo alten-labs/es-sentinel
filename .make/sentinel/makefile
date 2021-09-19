@@ -17,14 +17,14 @@
 # This utility is intened for gitpod developer use only and should not execute within a CICD build.
 #--------------------------------------------------------------------------------------------------------------
 sentinel/test-local:
-	mvn test
+	echo "ToDo: Test Implementation"
 
 # package-local
 #--------------------------------------------------------------------------------------------------------------
 # This utility is intened for gitpod developer use only and should not execute within a CICD build.
 #--------------------------------------------------------------------------------------------------------------
 sentinel/package-local: sentinel/test-local
-	mvn package
+	echo "ToDo: Package Implementation"
 
 #--------------------------------------------------------------------------------------------------------------
 # build-local
@@ -32,10 +32,7 @@ sentinel/package-local: sentinel/test-local
 # This utility is intened for gitpod developer use only and should not execute within a CICD build.
 #--------------------------------------------------------------------------------------------------------------
 sentinel/build-local: sentinel/package-local
-	mkdir -p ./docker/tmp/ ; \
-	cp ./target/embedded-systems-sentinel-sonarcloud-plugin-0.0.0-SNAPSHOT.jar ./docker/tmp/ ; \
-	cd ./docker ; \
-	docker build -t sonarqube-se-sentinel .
+	echo "ToDo: Build Implementation"
 
 #--------------------------------------------------------------------------------------------------------------
 # serve-local
@@ -43,7 +40,7 @@ sentinel/build-local: sentinel/package-local
 # This utility is intened for gitpod developer use only and should not execute within a CICD build.
 #--------------------------------------------------------------------------------------------------------------
 sentinel/serve-local: sentinel/build-local
-	docker run -dp 9000:9000 sonarqube-se-sentinel
+	echo "ToDo: Serve Implementation"
 
 #--------------------------------------------------------------------------------------------------------------
 #
