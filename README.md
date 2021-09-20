@@ -1,4 +1,6 @@
+<a href="https://github.com/cprime-labs/es-sentinel" target="_blank">
 <img src=".assets/es-sentinel.png" width="300" />
+</a>
 
 [![Maintained by CPrime Engineering](https://img.shields.io/badge/maintained%20by-cprime%20engineering-ED1846)](https://cprime.com/) 
 [![Built for Engineers](https://img.shields.io/badge/project-embedded%20systems%20sentinel-ED1846)](https://github.com/cprimeinc)
