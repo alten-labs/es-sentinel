@@ -35,7 +35,7 @@ USER gitpod
 RUN git clone https://github.com/npryce/adr-tools.git ~/adr-tools \
 	&& cd ~/adr-tools && git checkout tags/3.0.0 \
     && echo '################################### begin add adr-tools to system path #####################################' >>  /home/gitpod/.bashrc \
-    && echo 'export PATH="$HOME/adr-tools:$PATH"' >>  /home/gitpod/.bashrc \
+    && echo 'export PATH="$HOME/adr-tools/src:$PATH"' >>  /home/gitpod/.bashrc \
     && echo '#################################### end add adr-tools to system path ######################################' >>  /home/gitpod/.bashrc
 
 #--------------------------------------------------------------------------------------------------------------
