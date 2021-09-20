@@ -10,19 +10,21 @@
 FROM gitpod/workspace-full
 
 #--------------------------------------------------------------------------------------------------------------
-# INstall as root.
+# Install as root.
 #--------------------------------------------------------------------------------------------------------------
 USER root
 
 # Install codeql ----------------------------------------------------------------------------------------------
 RUN pwd \
-    && mkdir /tmp \
-    && cd /tmp \
+    && mkdir /install \
+    && cd /install \
     && wget https://github.com/github/codeql-cli-binaries/releases/download/v2.6.1/codeql-linux64.zip \
     && unzip codeql-linux64.zip \
 	&& rm codeql-linux64.zip \
     && mv codeql /home/gitpod/ \
-    && echo 'export PATH="\$HOME/codeql:\$PATH"' >>  /home/gitpod/.bashrc
+    && echo '##################################### begin add codeql to system path #######################################' >>  /home/gitpod/.bashrc \
+    && echo 'export PATH="$HOME/codeql:$PATH"' >>  /home/gitpod/.bashrc \
+    && echo '###################################### end add codeql to system path ########################################' >>  /home/gitpod/.bashrc
 
 
 #--------------------------------------------------------------------------------------------------------------
