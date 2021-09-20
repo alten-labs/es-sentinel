@@ -18,8 +18,7 @@ USER gitpod
 RUN pwd \
     && wget https://github.com/github/codeql-cli-binaries/releases/download/v2.6.1/codeql-linux64.zip \
     && unzip codeql-linux64.zip \
-	&& rm codeql-linux64.zip \
-    && echo 'export PATH="$$HOME/codeql:$$PATH"' >> ~/.bashrc
+	&& rm codeql-linux64.zip
 
 
 #--------------------------------------------------------------------------------------------------------------
