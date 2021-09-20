@@ -22,9 +22,13 @@ RUN cd /install \
     && unzip codeql-linux64.zip \
 	&& rm codeql-linux64.zip \
     && mv codeql /home/gitpod/ \
-    && echo '##################################### begin add codeql to system path #######################################' >>  /home/gitpod/.bashrc \
+    && echo '###############################################################################' >>  /home/gitpod/.bashrc \
+    && echo '##########  codeql - systempath - begin' >>  /home/gitpod/.bashrc \
+    && echo '###############################################################################' >>  /home/gitpod/.bashrc \
     && echo 'export PATH="$HOME/codeql:$PATH"' >>  /home/gitpod/.bashrc \
-    && echo '###################################### end add codeql to system path ########################################' >>  /home/gitpod/.bashrc
+    && echo '###############################################################################' >>  /home/gitpod/.bashrc \
+    && echo '##########  codeql - systempath - end' >>  /home/gitpod/.bashrc \
+    && echo '###############################################################################' >>  /home/gitpod/.bashrc
 
 #--------------------------------------------------------------------------------------------------------------
 # Install as gitpod.
@@ -34,9 +38,13 @@ USER gitpod
 # Install adr-tools -------------------------------------------------------------------------------------------
 RUN git clone https://github.com/npryce/adr-tools.git ~/adr-tools \
 	&& cd ~/adr-tools && git checkout tags/3.0.0 \
-    && echo '################################### begin add adr-tools to system path #####################################' >>  /home/gitpod/.bashrc \
+    && echo '###############################################################################' >>  /home/gitpod/.bashrc \
+    && echo '##########  adr-tools - systempath - begin' >>  /home/gitpod/.bashrc \
+    && echo '###############################################################################' >>  /home/gitpod/.bashrc \
     && echo 'export PATH="$HOME/adr-tools/src:$PATH"' >>  /home/gitpod/.bashrc \
-    && echo '#################################### end add adr-tools to system path ######################################' >>  /home/gitpod/.bashrc
+    && echo '###############################################################################' >>  /home/gitpod/.bashrc \
+    && echo '##########  adr-tools - systempath - end' >>  /home/gitpod/.bashrc \
+    && echo '###############################################################################' >>  /home/gitpod/.bashrc
 
 #--------------------------------------------------------------------------------------------------------------
 # Return control ot root.
