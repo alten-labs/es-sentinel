@@ -2,8 +2,8 @@
 version: 0.0.0
 name: es-sentinel
 description: We are making embedded systems software safer through the automation of code quality assurance.
-url: https://pulp-digital.github.io/es-sentinel/
-repository: https://github.com/pulp-digital/es-sentinel
+url: https://cprime-labs.github.io/es-sentinel/
+repository: https://github.com/cprime-labs/es-sentinel
 timezone: America/Los_Angeles
 twitter:
   username: cprime

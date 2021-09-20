@@ -1,10 +1,10 @@
 # es-sentinel docs site
 
-This directory contains the code for the es-sentinel [docs site](https://pulp-digital.github.io/es-sentinel/).
+This directory contains the code for the es-sentinel [docs site](https://cprime-labs.github.io/es-sentinel/).
 
 ## Contributing
 
-For information about contributing, see the [Contribution Guidelines](https://github.com/pulp-digital/es-sentinel/blob/main/CONTRIBUTING.md).
+For information about contributing, see the [Contribution Guidelines](https://github.com/cprime-labs/es-sentinel/blob/main/CONTRIBUTING.md).
 
 ## Running locally
 
