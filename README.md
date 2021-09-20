@@ -13,6 +13,10 @@ A [CodeQL](https://securitylab.github.com/tools/codeql/) query pack implementati
 
 [Embedded Systems Sentinel](https://cprime-labs.github.io/es-sentinel/) and [GitHub CodeQL](https://securitylab.github.com/tools/codeql/) can only be used on codebases that are released under an OSI-approved open source license, or to perform academic research, or to generate CodeQL databases for or during automated analysis, continuous integration (CI) or continuous delivery (CD) in the following cases: (1) on any Open Source Codebase hosted and maintained on GitHub.com, and (2) to test CodeQL queries you have released under an OSI-approved open source software license. It can't be used for automated analysis, continuous integration or continuous delivery, whether as part of normal software engineering processes or otherwise, except in the express cases set forth herein. For these uses, [contact the sales team](sentinel@cprime.com).
 
+<a href="https://cprime.com/" target="_blank">
+<img src=".assets/gh-cp-ms-partner.png" />
+</a>
+
 ## Documentation
 
 Comprehensive documentation for this repo can be found in the [github pages](https://cprime-labs.github.io/es-sentinel/) website hosted within this repo.
