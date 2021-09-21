@@ -56,6 +56,11 @@ The following tools are not strictly required to work with this repo but we reco
 - [GitHub](https://GitHub.com): GitHub, Inc. is a provider of Internet hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features. 
 - [Gitpod](https://www.gitpod.io/): Gitpod streamlines developer workflows by providing prebuilt, collaborative development environments in your browser - powered by VS Code.
 
+<a href="https://cprime.com/" target="_blank">
+<img src=".assets/gh-cp-ms-partner.png" />
+</a>
+
+
 ## Who maintains this repo?
 
 This repo is maintained by CPrime Engineering. If you're looking for support, send an email to [engineering@cprime.com](mailto:engineering@cprime.com?subject=DevOps%20Library%20VPC%20AWS).
@@ -65,11 +70,6 @@ CPrime Engineering can help with:
 - Modules for other types of infrastructure, such as VPCs, Docker clusters, databases, and continuous integration.
 - Modules that meet compliance requirements, such as HIPAA.
 - Consulting & Training on Azure, AWS, Terraform, and DevOps.
-
-<a href="https://cprime.com/" target="_blank">
-<img src=".assets/gh-cp-ms-partner.png" />
-</a>
-
 ## How do I contribute to this repo?
 
 Contributions are welcome. Check out the
