@@ -56,8 +56,8 @@ The following tools are not strictly required to work with this repo but we reco
 - [GitHub](https://GitHub.com): GitHub, Inc. is a provider of Internet hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features. 
 - [Gitpod](https://www.gitpod.io/): Gitpod streamlines developer workflows by providing prebuilt, collaborative development environments in your browser - powered by VS Code.
 
-<a href="https://cprime.com/" target="_blank">
-<img src=".assets/gh-cp-ms-partner.png" />
+<a href="https://alten.com/" target="_blank">
+<img src=".assets/alten-gh-gp-ms-partner.png" />
 </a>
 
 
