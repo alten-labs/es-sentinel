@@ -2,12 +2,12 @@
 version: 0.0.0
 name: es-sentinel
 description: We are making embedded systems software safer through the automation of code quality assurance.
-url: https://cprime-labs.github.io/es-sentinel/
-repository: https://github.com/cprime-labs/es-sentinel
+url: https://alten-labs.github.io/es-sentinel/
+repository: https://github.com/alten-labs/es-sentinel
 timezone: America/Los_Angeles
 twitter:
-  username: cprime
-logo: "/img/cprime-logo.png"
+  username: alten_group
+logo: "/img/alten-logo.png"
 collections:
   docs:
     permalink: "/:collection/:path/"

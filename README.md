@@ -1,17 +1,17 @@
-<a href="https://github.com/cprime-labs/es-sentinel" target="_blank">
+<a href="https://github.com/alten-labs/es-sentinel" target="_blank">
 <img src=".assets/es-sentinel.png" width="300" />
 </a>
 
 [![Maintained by Alton Labs](https://img.shields.io/badge/maintained%20by-alten%20labs-0FA2DF)](https://alten.com/) 
 [![Built for Engineers](https://img.shields.io/badge/project-embedded%20systems%20sentinel-0FA2DF)](https://github.com/alten-labs/es-sentinel)
 
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/cprime-labs/es-sentinel.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/cprime-labs/es-sentinel/alerts/)
-[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/cprime-labs/es-sentinel.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/cprime-labs/es-sentinel/context:javascript)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/alten-labs/es-sentinel.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/alten-labs/es-sentinel/alerts/)
+[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/alten-labs/es-sentinel.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/alten-labs/es-sentinel/context:javascript)
 
 # Embedded Systems Sentinel
 A [CodeQL](https://securitylab.github.com/tools/codeql/) query pack implementation to ensure code safety, security, portability, and reliability in the context of embedded systems. This query pack validates code quality for [MISRA C](https://en.wikipedia.org/wiki/MISRA_C) and [AUTOSAR](https://www.autosar.org/) compliance.
 
-[Embedded Systems Sentinel](https://cprime-labs.github.io/es-sentinel/) and [GitHub CodeQL](https://securitylab.github.com/tools/codeql/) can only be used on codebases that are released under an OSI-approved open source license, or to perform academic research, or to generate CodeQL databases for or during automated analysis, continuous integration (CI) or continuous delivery (CD) in the following cases: (1) on any Open Source Codebase hosted and maintained on GitHub.com, and (2) to test CodeQL queries you have released under an OSI-approved open source software license. It can't be used for automated analysis, continuous integration or continuous delivery, whether as part of normal software engineering processes or otherwise, except in the express cases set forth herein. For these uses, [contact the sales team](sentinel@cprime.com).
+[Embedded Systems Sentinel](https://alten-labs.github.io/es-sentinel/) and [GitHub CodeQL](https://securitylab.github.com/tools/codeql/) can only be used on codebases that are released under an OSI-approved open source license, or to perform academic research, or to generate CodeQL databases for or during automated analysis, continuous integration (CI) or continuous delivery (CD) in the following cases: (1) on any Open Source Codebase hosted and maintained on GitHub.com, and (2) to test CodeQL queries you have released under an OSI-approved open source software license. It can't be used for automated analysis, continuous integration or continuous delivery, whether as part of normal software engineering processes or otherwise, except in the express cases set forth herein. For these uses, [contact the sales team](labs@alten.com).
 
 <a href="https://fr.calameo.com/read/004893352f8d0da97afea" target="_blank">
 <img src=".assets/alten-mag.png" />
@@ -19,11 +19,11 @@ A [CodeQL](https://securitylab.github.com/tools/codeql/) query pack implementati
 
 ## Documentation
 
-Comprehensive documentation for this repo can be found in the [github pages](https://cprime-labs.github.io/es-sentinel/) website hosted within this repo.
+Comprehensive documentation for this repo can be found in the [github pages](https://alten-labs.github.io/es-sentinel/) website hosted within this repo.
 
 ## Project Management
 
-Tasks and issues that relate to development of this repo can be found in this repo's [project board](https://github.com/cprime-labs/es-sentinel/projects/1).
+Tasks and issues that relate to development of this repo can be found in this repo's [project board](https://github.com/alten-labs/es-sentinel/projects/1).
 
 ## How to use this repo
 
@@ -31,11 +31,11 @@ Follow these steps to fully implement this repo:
 
 
 #### Step 0: GitHub.
-If you are viewing this readme by any other means go to the canonical repository on [GitHub](https://github.com/cprime-labs/es-sentinel) for the most up to date version of this repo.
+If you are viewing this readme by any other means go to the canonical repository on [GitHub](https://github.com/alten-labs/es-sentinel) for the most up to date version of this repo.
 
 #### Step 1: Launch Gitpod IDE.
 - If you don't already have it installed we recommend using the [GitPod Browser Extension](https://www.gitpod.io/docs/browser-extension/).
-- On the home page for this repo, select the branch you want to base your work on then click 'GitPod'. Alternatively click this url https://gitpod.io/#https://github.com/cprime-labs/es-sentinel
+- On the home page for this repo, select the branch you want to base your work on then click 'GitPod'. Alternatively click this url https://gitpod.io/#https://github.com/alten-labs/es-sentinel
 - Gitpod will now launch.
 
 #### Step 3: Run the tests.
@@ -64,8 +64,8 @@ The following tools are not strictly required to work with this repo but we reco
 
 ## Who maintains this repo?
 
-This repo is maintained by CPrime Engineering. If you're looking for support, send an email to [engineering@cprime.com](mailto:engineering@cprime.com?subject=DevOps%20Library%20VPC%20AWS).
-CPrime Engineering can help with:
+This repo is maintained by Alten Labs. If you're looking for support, send an email to [labs@alten.com](mailto:labs@alten.com?subject=es%20sentinel%20VPC%20AWS).
+Alten Engineering can help with:
 
 - Setup, customization, and support for this repo.
 - Modules for other types of infrastructure, such as VPCs, Docker clusters, databases, and continuous integration.

@@ -1,1 +1,1 @@
-[Unreleased](https://github.com/cprime-labs/es-sentinel/commits/main)
+[Unreleased](https://github.com/alten-labs/es-sentinel/commits/main)
