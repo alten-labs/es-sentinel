@@ -2,8 +2,8 @@
 <img src=".assets/es-sentinel.png" width="300" />
 </a>
 
-[![Maintained by CPrime Engineering](https://img.shields.io/badge/maintained%20by-cprime%20engineering-ED1846)](https://cprime.com/) 
-[![Built for Engineers](https://img.shields.io/badge/project-embedded%20systems%20sentinel-ED1846)](https://github.com/cprimeinc)
+[![Maintained by Alton Labs](https://img.shields.io/badge/maintained%20by-alten%20labs-043962)](https://alten.com/) 
+[![Built for Engineers](https://img.shields.io/badge/project-embedded%20systems%20sentinel-043962)](https://github.com/alten-labs/es-sentinel)
 
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/cprime-labs/es-sentinel.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/cprime-labs/es-sentinel/alerts/)
 [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/cprime-labs/es-sentinel.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/cprime-labs/es-sentinel/context:javascript)
