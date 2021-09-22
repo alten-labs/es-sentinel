@@ -64,11 +64,11 @@ The following tools are not strictly required to work with this repo but we reco
 
 ## Who maintains this repo?
 
-This repo is maintained by Alten Labs. If you're looking for support, send an email to [labs@alten.com](mailto:labs@alten.com?subject=es%20sentinel).
+This repo is maintained by Alten Labs. If you're looking for support, send an email to [labs@alten.com](mailto:labs@alten.com?subject=es%20sentinel%20sales).
 Alten Engineering can help with:
 
 - Setup, customization, and support for this repo.
-- Modules for other types of infrastructure, such as VPCs, Docker clusters, databases, and continuous integration.
+- Modules for all types of infrastructure, such as VPCs, Docker clusters, databases, and continuous integration.
 - Modules that meet compliance requirements, such as HIPAA.
 - Consulting & Training on Azure, AWS, Terraform, and DevOps.
 ## How do I contribute to this repo?
