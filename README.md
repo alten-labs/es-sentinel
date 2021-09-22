@@ -11,7 +11,7 @@
 # Embedded Systems Sentinel
 A [CodeQL](https://securitylab.github.com/tools/codeql/) query pack implementation to ensure code safety, security, portability, and reliability in the context of embedded systems. This query pack validates code quality for [MISRA C](https://en.wikipedia.org/wiki/MISRA_C) and [AUTOSAR](https://www.autosar.org/) compliance.
 
-[Embedded Systems Sentinel](https://alten-labs.github.io/es-sentinel/) and [GitHub CodeQL](https://securitylab.github.com/tools/codeql/) can only be used on codebases that are released under an OSI-approved open source license, or to perform academic research, or to generate CodeQL databases for or during automated analysis, continuous integration (CI) or continuous delivery (CD) in the following cases: (1) on any Open Source Codebase hosted and maintained on GitHub.com, and (2) to test CodeQL queries you have released under an OSI-approved open source software license. It can't be used for automated analysis, continuous integration or continuous delivery, whether as part of normal software engineering processes or otherwise, except in the express cases set forth herein. For these uses, [contact the sales team](mailto:labs@alten.com).
+[Embedded Systems Sentinel](https://alten-labs.github.io/es-sentinel/) and [GitHub CodeQL](https://securitylab.github.com/tools/codeql/) can only be used on codebases that are released under an OSI-approved open source license, or to perform academic research, or to generate CodeQL databases for or during automated analysis, continuous integration (CI) or continuous delivery (CD) in the following cases: (1) on any Open Source Codebase hosted and maintained on GitHub.com, and (2) to test CodeQL queries you have released under an OSI-approved open source software license. It can't be used for automated analysis, continuous integration or continuous delivery, whether as part of normal software engineering processes or otherwise, except in the express cases set forth herein. For these uses, [contact the sales team](mailto:labs@alten.com?subject=es%20sentinel%20sales).
 
 <a href="https://fr.calameo.com/read/004893352f8d0da97afea" target="_blank">
 <img src=".assets/alten-mag.png" />
@@ -64,7 +64,7 @@ The following tools are not strictly required to work with this repo but we reco
 
 ## Who maintains this repo?
 
-This repo is maintained by Alten Labs. If you're looking for support, send an email to [labs@alten.com](mailto:labs@alten.com?subject=es%20sentinel%20VPC%20AWS).
+This repo is maintained by Alten Labs. If you're looking for support, send an email to [labs@alten.com](mailto:labs@alten.com?subject=es%20sentinel).
 Alten Engineering can help with:
 
 - Setup, customization, and support for this repo.
