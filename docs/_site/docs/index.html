@@ -1,0 +1,297 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="es-sentinel" />
+  <link type="application/atom+xml" rel="alternate" href="/feed/release.xml" title="Jekyll releases posts" />
+  <link rel="alternate" type="application/atom+xml" title="Recent commits to Jekyll’s master branch" href="https://github.com/alten-labs/es-sentinel/commits/master.atom">
+  <link rel="preload" href="/fonts/lato-v14-latin-300.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/fonts/lato-v14-latin-700.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/css/screen.css" as="style">
+  <link rel="stylesheet" href="/css/screen.css">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Quickstart | es-sentinel</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Quickstart" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Useful Links" />
+<meta property="og:description" content="Useful Links" />
+<link rel="canonical" href="http://localhost:4000/docs/" />
+<meta property="og:url" content="http://localhost:4000/docs/" />
+<meta property="og:site_name" content="es-sentinel" />
+<meta property="og:image" content="http://localhost:4000/img/jekyll-og.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/img/jekyll-og.png" />
+<meta property="twitter:title" content="Quickstart" />
+<meta name="twitter:site" content="@alten_group" />
+<script type="application/ld+json">
+{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/img/alten-logo.png"}},"description":"Useful Links","image":"http://localhost:4000/img/jekyll-og.png","@type":"WebPage","headline":"Quickstart","url":"http://localhost:4000/docs/","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <!--[if lt IE 9]>
+  <script src="/js/html5shiv.min.js"></script>
+  <script src="/js/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body class="wrap"><header>
+  <div class="flexbox">
+    <div class="center-on-mobiles">
+      <h1>
+        <a href="/" class="logo">
+          <span class="sr-only">alten</span>
+          <img src="/img/alten-logo.png" height="65" alt="alten">
+        </a>
+      </h1>
+    </div>
+    <nav class="main-nav hide-on-mobiles">
+      <ul>
+  <li><a href="/">Home</a></li>
+  <li class="current"><a href="/docs/">Docs</a></li>
+  <li><a href="/resources/">Resources</a></li>
+  <li><a href="/news/">News</a></li>
+  </ul>
+</nav>
+    <div class="search hide-on-mobiles">
+      <input type="text" id="docsearch-input" placeholder="Search the docs…">
+</div>
+    <div class="meta hide-on-mobiles">
+      <ul>
+        <li><a href="https://github.com/alten-labs/es-sentinel/releases/tag/v0.0.0">v0.0.0</a></li>
+        <li><a href="https://github.com/alten-labs/es-sentinel">GitHub</a></li>
+      </ul>
+    </div>
+  </div>
+  <nav class="mobile-nav show-on-mobiles">
+    <ul>
+  <li><a href="/">Home</a></li>
+    <li class="current" ><a href="/docs/">Docs</a></li>
+    <li><a href="/news/">News</a></li>
+    <li><a href="https://github.com/alten-labs/es-sentinel">GitHub</a></li>
+</ul>
+</nav>
+</header>
+<section class="docs">
+  <div class="grid">
+    <div class="docs-nav-mobile unit whole show-on-mobiles">
+  <select onchange="if (this.value) window.location.href=this.value">
+    <option value="">Navigate the docs…</option>
+    <optgroup label="Getting Started">
+      <option value="/docs/">Quickstart</option>
+      <option value="/docs/installation/">Installation</option>
+      <option value=""></option>
+      <option value="/docs/community/">Community</option>
+      <option value="/docs/step-by-step/01-setup/">Step by Step Tutorial</option>
+    </optgroup>
+    <optgroup label="Build">
+      <option value="/docs/usage/">Command Line Usage</option>
+      <option value="/docs/configuration/">Configuration</option>
+      <option value="/docs/workflows/">Workflows</option>
+    </optgroup>
+    </select>
+</div>
+<div class="unit four-fifths">
+      <article>
+        <div class="improve right hide-on-mobiles">
+          <a data-proofer-ignore href="https://github.com/jekyll/jekyll/edit/master/docs/_docs/index.md"><i
+             class="fa fa-pencil"></i> &nbsp;Improve this page</a>
+        </div>
+        <h1>Quickstart</h1>
+        <h2 id="useful-links">Useful Links</h2>
+
+<p><a href="https://docs.sonarqube.org/latest/extend/developing-plugin/">Sonarsource documentation for plugin development.</a></p>
+
+<p><a href="https://github.com/SonarSource/sonar-custom-plugin-example">Sonarsource example plugin project on GitHub.</a></p>
+
+<h2 id="back-end">Back-end</h2>
+
+<p>Todo…</p>
+
+<h3 id="building">Building</h3>
+
+<p>To build the plugin JAR file, call:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mvn clean package
+</code></pre></div></div>
+
+<p>The JAR will be deployed to <code class="language-plaintext highlighter-rouge">target/sonar-example-plugin-VERSION.jar</code>. Copy this to your SonarQube’s <code class="language-plaintext highlighter-rouge">extensions/plugins/</code> directory, and re-start SonarQube.</p>
+
+<h2 id="front-end">Front-end</h2>
+
+<p>This plugin registers 4 extension pages in the SonarQube web app. They demonstrate how you can extend SonarQube’s UI with new pages and interfaces.</p>
+
+<h3 id="prerequisites">Prerequisites</h3>
+
+<ul>
+  <li><a href="https://nodejs.org/en/">NodeJS</a></li>
+</ul>
+
+<h3 id="scripts">Scripts</h3>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">npm install</code> to install your dependencies.</li>
+  <li><code class="language-plaintext highlighter-rouge">npm start</code> to start a proxy server on port 3000 to debug your JS code.<br />
+<em>Note: This plugin must first be deployed and installed on your SonarQube instance, otherwise the extension paths will not be registered. See above under Back-end &gt; Building</em><br />
+This will proxy to a running SonarQube instance, but allow you to use your own local JavaScript instead of what was bundled with your plugin. Once started, you can access <code class="language-plaintext highlighter-rouge">http://localhost:3000</code> in your browser, and use SonarQube as you normally would.<br />
+You can use a different port by using the <code class="language-plaintext highlighter-rouge">PORT</code> environment variable. Example:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PORT=6060 npm start
+</code></pre></div>    </div>
+    <p>You can control to which SonarQube instance you proxy to by setting the <code class="language-plaintext highlighter-rouge">PROXY_URL</code> environment variable to any valid URL (defaults to <code class="language-plaintext highlighter-rouge">http://localhost:9000</code>). Example:</p>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PROXY_URL=https://sonarqube.example.com npm start
+</code></pre></div>    </div>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">npm test</code> to start watching your files for changes, and run tests accordingly.</li>
+  <li><code class="language-plaintext highlighter-rouge">npm run build</code> to build your front-end code.<br />
+Usually, you will not need to call this; instead, this should be part of your package building process.<br />
+See Back-end &gt; Building above.</li>
+</ul>
+
+<h3 id="building-1">Building</h3>
+
+<p>This example plugin uses <a href="https://webpack.js.org/">Webpack</a> for building the final JavaScript. Whatever build system you choose to use, the final result <em>MUST</em> adhere to the following rules:</p>
+
+<ul>
+  <li>1 entry file <em>per extension page</em>.</li>
+  <li>The name of each entry file must correspond to the <code class="language-plaintext highlighter-rouge">page_id</code> of the registered page (see <code class="language-plaintext highlighter-rouge">src/main/java/org/sonarsource/plugins/example/web/MyPluginPageDefinition.java</code> and compare with the entry points in <code class="language-plaintext highlighter-rouge">conf/webpack/webpack.config.js</code>).</li>
+  <li>Each entry file must be located in the resulting JAR’s <code class="language-plaintext highlighter-rouge">static/</code> folder.</li>
+</ul>
+
+<p>The building process should be included in your full packaging process. In this example plugin, <code class="language-plaintext highlighter-rouge">mvn package</code> will call <code class="language-plaintext highlighter-rouge">npm run build</code> prior to finalizing the JAR package.</p>
+
+<h3 id="testing">Testing</h3>
+
+<p>This project uses <a href="https://jestjs.io/">Jest</a> for testing. Running <code class="language-plaintext highlighter-rouge">npm test</code> will run Jest in <code class="language-plaintext highlighter-rouge">--watch</code> mode. You can find the configuration for Jest in <code class="language-plaintext highlighter-rouge">package.json</code>.</p>
+
+<h3 id="how-to-use-these-files">How to use these files</h3>
+
+<p>It is recommended you check out the sources in <code class="language-plaintext highlighter-rouge">src/main/js/</code> directly. The code is well commented, and provides real-world examples on how to interact with SonarQube.</p>
+
+<p>The pages are registered in <code class="language-plaintext highlighter-rouge">src/main/java/org/sonarsource/plugins/example/web/MyPluginPageDefinition.java</code>, and their respective front-end source code is located in <code class="language-plaintext highlighter-rouge">src/main/js/</code>. These examples use different stacks to demonstrate different possibilities:</p>
+
+<ul>
+  <li>React JS examples (recommended, SonarQube uses React 16):
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">src/main/js/portfolio_page/</code></li>
+      <li><code class="language-plaintext highlighter-rouge">src/main/js/admin_page/</code></li>
+    </ul>
+  </li>
+  <li>Backbone JS example: <code class="language-plaintext highlighter-rouge">src/main/js/project_page/</code></li>
+  <li>Vanilla JS example: <code class="language-plaintext highlighter-rouge">src/main/js/global_page/</code></li>
+</ul>
+
+<h4 id="helper-apis-exposed-by-sonarqube">Helper APIs exposed by SonarQube</h4>
+
+<p>There are several helper APIs exposed by SonarQube, like functions to make authenticated API requests.</p>
+
+<p>You can find the full list of exposed helpers <a href="https://github.com/SonarSource/sonarqube/blob/master/server/sonar-web/src/main/js/app/components/extensions/exposeLibraries.ts">here</a>.</p>
+
+<p>The included pages contain several examples:</p>
+
+<ul>
+  <li>
+    <p><strong>API calls (<code class="language-plaintext highlighter-rouge">window.SonarRequest</code>)</strong><br />
+Check <code class="language-plaintext highlighter-rouge">src/main/js/common/api.js</code> for some examples.</p>
+  </li>
+  <li>
+    <p><strong>Localization (<code class="language-plaintext highlighter-rouge">window.t()</code> and <code class="language-plaintext highlighter-rouge">window.tp()</code>)</strong><br />
+Localizable UI strings are defined in <code class="language-plaintext highlighter-rouge">src/main/resources/org/sonar/l10n/example/</code>. They are loaded at startup time, and can used by the global <code class="language-plaintext highlighter-rouge">t()</code> and <code class="language-plaintext highlighter-rouge">tp()</code> functions. See <code class="language-plaintext highlighter-rouge">src/main/js/admin_page/components/InstanceStatisticsApp.js</code> and <code class="language-plaintext highlighter-rouge">src/main/js/portfolio_page/components/VersionsMeasuresHistoryApp.js</code> for some examples.</p>
+  </li>
+</ul>
+
+<p><strong>Deprecation notice</strong></p>
+
+<p>Starting with SonarQube 8.7, the following APIs are deprecated and won’t be maintained anymore. They’ll be dropped after the next SonarQube LTS version.</p>
+
+<ul>
+  <li><strong>Measure helpers (<code class="language-plaintext highlighter-rouge">window.SonarMeasures</code>)</strong></li>
+  <li><strong>React Components (<code class="language-plaintext highlighter-rouge">window.SonarComponents</code>)</strong></li>
+</ul>
+
+
+      </article>
+    </div>
+    <div class="unit one-fifth hide-on-mobiles">
+  <aside>
+    <h4>Getting Started</h4>
+      <ul>
+        <li class="current"><a href="/docs/">Quickstart</a></li>
+        <li><a href="/docs/installation/">Installation</a></li>
+        <li><a href=""></a></li>
+        <li><a href="/docs/community/">Community</a></li>
+        <li><a href="/docs/step-by-step/01-setup/">Step by Step Tutorial</a></li>
+      </ul>
+    <h4>Build</h4>
+      <ul>
+        <li><a href="/docs/usage/">Command Line Usage</a></li>
+        <li><a href="/docs/configuration/">Configuration</a></li>
+        <li><a href="/docs/workflows/">Workflows</a></li>
+      </ul>
+    </aside>
+</div>
+<div class="clear"></div>
+  </div>
+</section>
+<footer>
+  <div class="grid">
+    <div class="unit one-third center-on-mobiles">
+      <p>es-sentinel is maintained by a <a href="/team/">core team</a> of Alten engineers. </p>
+      <p>The contents of this website are <br />&copy;&nbsp;2021 under the terms of the <a href="https://github.com/alten-labs/es-sentinel/blob/main/LICENSE">MIT License</a>.</p>
+    </div>
+    <div class="unit two-thirds align-right center-on-mobiles">
+      <p>
+        Hosted by
+        <a href="https://github.com">
+          <img src="/img/footer-logo.png" width="100" height="30" alt="GitHub • Social coding">
+        </a>
+      </p>
+    </div>
+    <div class="unit two-thirds align-right center-on-mobiles">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+<script>
+  var anchorForId = function (id) {
+    var anchor = document.createElement("a");
+    anchor.className = "header-link";
+    anchor.href      = "#" + id;
+    anchor.innerHTML = "<span class=\"sr-only\">Permalink</span><i class=\"fa fa-link\"></i>";
+    anchor.title = "Permalink";
+    return anchor;
+  };
+
+  var linkifyAnchors = function (level, containingElement) {
+    var headers = containingElement.getElementsByTagName("h" + level);
+    for (var h = 0; h < headers.length; h++) {
+      var header = headers[h];
+
+      if (typeof header.id !== "undefined" && header.id !== "") {
+        header.appendChild(anchorForId(header.id));
+      }
+    }
+  };
+
+  document.onreadystatechange = function () {
+    if (this.readyState === "complete") {
+      var contentBlock = document.getElementsByClassName("docs")[0] || document.getElementsByClassName("news")[0];
+      if (!contentBlock) {
+        return;
+      }
+      for (var level = 1; level <= 6; level++) {
+        linkifyAnchors(level, contentBlock);
+      }
+    }
+  };
+</script>
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script> docsearch({
+apiKey: '50fe39c839958dfad797000f33e2ec17',
+indexName: 'jekyllrb',
+inputSelector: '#docsearch-input',
+enhancedSearchInput: true,
+debug: false // Set debug to true if you want to inspect the dropdown
+});
+</script>
+</body>
+</html>
